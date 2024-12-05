@@ -12,6 +12,6 @@ export default defineConfig({
   },
   output: "static",
 
-  site: "https://astroship.web3templates.com",
+  site: "https://learn.haimantika.com/",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
