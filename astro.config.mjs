@@ -6,6 +6,12 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
+  build: {
+    assetsPrefix:
+      "https://custom-webpage-static-assets-production.fermion.app/6740c123f9b2d21e732cde08-custom-zip-pages/",
+  },
+  output: "static",
+
   site: "https://astroship.web3templates.com",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
